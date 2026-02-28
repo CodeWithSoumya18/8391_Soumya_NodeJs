@@ -14,6 +14,6 @@ app.use(
 );
 
 app.use("/api", userrouter);
-app.listen(2700, () => {
+app.listen(4000, () => {
   console.log("server started");
 });
